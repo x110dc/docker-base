@@ -4,3 +4,4 @@ ENV DEBIAN_FRONTEND noninteractive
 RUN apt-get update
 RUN apt-get -y install python-software-properties
 RUN apt-get -y install libpq-dev
+RUN apt-get -y install python-pip
